@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crossreferences-it\n"
+"POT-Creation-Date: 2008-12-31 16:23+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Leonardo <leonardo.saracini@tiscali.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin.php:44
+msgid "Options were saved."
+msgstr "Le opzioni sono salvate"
+
+#: admin.php:49
+msgid "0 HTML links were found."
+msgstr "0 riferimenti HTML sono stati trovati."
+
+#: admin.php:51
+msgid "1 HTML link was found."
+msgstr "1 riferimento HTML è stato trovato"
+
+#: admin.php:54
+#, php-format
+msgid "%d HTML links were converted in %d post or page."
+msgid_plural "%d HTML links were converted in %d posts and pages."
+msgstr[0] "%d riferimento HTML è stato convertito in %d articolo o pagina."
+msgstr[1] "%d riderimenti HTML sono stati convertiti in %d articoli and pagine."
+
+#: admin.php:67
+msgid "Slug was renamed."
+msgstr "Slug (nome) è stato rinominato"
+
+#: admin.php:72
+msgid "Table was rebuild."
+msgstr "La tabella è stata ricostruita."
+
+#: admin.php:76
+msgid "Plugin was deinstalled."
+msgstr "Il Plugin è stato disistallato."
+
+#: admin.php:87
+msgid "Cross-references Options"
+msgstr "Opzioni di Cross-references."
+
+#: admin.php:91
+msgid "Post identification by"
+msgstr "Articolo identificato da"
+
+#: admin.php:95
+msgid "ID (number)"
+msgstr "ID (number)"
+
+#: admin.php:95
+msgid "Slug (name)"
+msgstr "Slug (nome)"
+
+#: admin.php:104
+msgid "Define whether you want to set references with [cref slug] (for example [cref hello-world]) or with [cref ID] (for example [cref 1]). "
+msgstr "Definisci come vuoi creare i riferimenti con [cref nome] (per esempio [cref ciao-mondo]) oppure con [cref ID] (per esempio [cref 1]). "
+
+#: admin.php:110
+#, php-format
+msgid "<em>Note:</em> If you change this now, %s existing reference at post or page will be automatically updated."
+msgid_plural "<em>Note:</em> If you change this now, %s existing references at posts and pages will be automatically updated."
+msgstr[0] "<em>Nota:</em> Se cambi questo adesso, %s esistenti riferimenti a articoli o pagine saranno automaticamente aggiornati."
+msgstr[1] "<em>Nota:</em> Se cambi questo adesso, %s esistenti riferimenti a articoli o pagine saranno automaticamente aggiornati."
+
+#: admin.php:120
+msgid "Related Posts List"
+msgstr "Lista articoli correlati"
+
+#: admin.php:124
+msgid "Do not show related posts"
+msgstr "Non mostrare gli articoli correlati"
+
+#: admin.php:124
+msgid "Show related posts"
+msgstr "Mostra gli articoli correlati"
+
+#: admin.php:132
+msgid "Whether the plugin inserts a related posts list at the end of each post and page. This does not require any template changes."
+msgstr "Come il plugin inserisce una lista di articoli correlati alla fine di ogni articolo o pagina. Questo non richiede alcun cambio nel template"
+
+#: admin.php:135
+msgid "XML Export"
+msgstr "Export in XML"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Let references as [cref ...]"
+msgstr "Crea i riferimenti come [cref ...]"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Show related posts title"
+msgstr "Mostra i titoli degli articoli correlati"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Link to related posts"
+msgstr "Riferimenti a articoli correlati"
+
+#: admin.php:147
+msgid "How the references are treated when exporting this blog as an xml file."
+msgstr "Come i riferimenti sono trattati durante l'esportazione xml di questo glog."
+
+#: admin.php:151
+msgid "Display Options"
+msgstr "Opzioni di visualizzazione"
+
+#: admin.php:152
+msgid "These options apply only if the related posts list is shown according to the option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;sp; to get a white space at the beginning or end of a string."
+msgstr "Queste opzioni sono applicate solo se la lista degli articoli correlati è mostrata in accordo con l'opzione \"Lista Articoli correlati\" sopra. Puoi immettere HTML qua.<br />Usa %amp;sp; per ottenere uno spazio vuoto all'inizio o alla vine della stringa."
+
+#: admin.php:155
+msgid "Before List"
+msgstr "Prima della lista"
+
+#: admin.php:158
+msgid "Show this at the beginning of the list. Examples: "
+msgstr "Mostarlo all'inizio della lista. Esempi:"
+
+#: admin.php:159
+#: crossreferences.php:251
+msgid "Related posts"
+msgstr "Articoli correlati"
+
+#: admin.php:159
+msgid "See also"
+msgstr "Vedi anche"
+
+#: admin.php:162
+msgid "Between Items"
+msgstr "Elementi inframezzati"
+
+#: admin.php:165
+msgid "Show this between items. Examples: "
+msgstr "Mostralo tra gli elementi. Esempi:"
+
+#: admin.php:169
+msgid "After List"
+msgstr "Dopo la lista"
+
+#: admin.php:172
+msgid "Show this at the end of the list. Examples: "
+msgstr "Mostralo alla fine della lista. Esempi:"
+
+#: admin.php:176
+msgid "Empty List"
+msgstr "Lista vuota"
+
+#: admin.php:179
+msgid "Show this if there are no related posts. Example: "
+msgstr "Mostralo se non ci sono riferimenti ad articoli correlati. Esempio:"
+
+#: admin.php:180
+msgid "There are no related posts yet."
+msgstr "Non ci sono ancora articoli correlati"
+
+#: admin.php:186
+msgid "Save Changes"
+msgstr "Salva le modifiche"
+
+#: admin.php:189
+msgid "Tools"
+msgstr "Comandi"
+
+#: admin.php:192
+msgid "Slug Rename"
+msgstr "Rinomina Slug"
+
+#: admin.php:196
+msgid "Old slug:"
+msgstr "Vecchi Slug:"
+
+#: admin.php:197
+msgid "New slug:"
+msgstr "Nuovi Slug:"
+
+#: admin.php:198
+msgid "Rename"
+msgstr "Rinomina"
+
+#: admin.php:199
+msgid "Changing page slugs will break your references (this is because of the way WordPress handles slugs). Here you can rename a slug, all references to it will be updated."
+msgstr "Cambiare lo slug nella pagina invaliderà i tuoi riferimenti (per via di come WordPress mantiene gli Slugs). Qua tu puoi rinominare uno slug, tutti i reiferimenti saranno aggiornati."
+
+#: admin.php:204
+msgid "Rebuild Table"
+msgstr "Ricostruisci la tabella"
+
+#: admin.php:208
+msgid "Rebuild"
+msgstr "Ricostruisci"
+
+#: admin.php:209
+msgid "The plugin stores information about your references in a database table. If the plugin was some time inactive, its information may not be accurate any more. You can rebuild the table, in order to correct all errors."
+msgstr "Il plugin memorizza informazioni su i reiferimenti in una tabella di database. Se il plug in è stato disattivato le informazioni potrebbero non essere più aggiornate. Puoi comunque ricostruire la tabella in modo da correggere gli errori."
+
+#: admin.php:214
+msgid "Import HTML Links"
+msgstr "Importa i riferimenti HTML"
+
+#: admin.php:218
+msgid "Import"
+msgstr "Importa"
+
+#: admin.php:219
+msgid "Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which refer to other posts or pages in this blog changing them to a [cref ...] reference."
+msgstr "Importa tutti i riferimenti html &lt;a href=...&gt;&lt;/a&gt; in articoli e pagine che hanno riferimenti ad altri articoli o pagine in questo blog modificandoli con un riferimento del tipo [cref ...]."
+
+#: admin.php:224
+msgid "Deinstall Plugin"
+msgstr "Disistalla il Plugin"
+
+#: admin.php:228
+msgid "Deinstall"
+msgstr "Disistalla"
+
+#: admin.php:229
+msgid "If you do not want to use this plugin any more you can deinstall it completely: The plugin table and options are removed from the database and then the plugin is deactivated."
+msgstr "Se non vuoi utilizzare più questo plugin puoi disistallarlo completamente: la tabella del plugin e le opzioni create saranno rimosse dal database e il plugun restera disattivato. "
+
+#: admin.php:233
+#, php-format
+msgid "What to do with the %s existing reference in a post or page:"
+msgid_plural "What to do with the %s existing references in posts and pages:"
+msgstr[0] "Cosa fare con i %s riferimenti esistenti nell'articolo o nella pagina:"
+msgstr[1] "Cosa fare con i %s riferimenti esistenti negli articoli o nelle pagine:"
+
+#: admin.php:260
+msgid "Please enter both an old and a new post or page slug."
+msgstr "Prego di inserire il vecchi e il nuovo slug per l'articolo o la pagina"
+
+#: admin.php:272
+#, php-format
+msgid "Unknown slug %s."
+msgstr "Slug sconosciuto %s."
+
+#: crossreferences.php:263
+msgid "Cross-references"
+msgstr "Cross-references"

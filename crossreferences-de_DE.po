@@ -1,0 +1,295 @@
+# WordPress Cross-References-Plugin POT file.
+# Copyright (C) 2008 Francesc Hervada-Sala
+#
+# Francesc Hervada-Sala <francesc@hervada.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: crossreferences-de_DE\n"
+"POT-Creation-Date: 2008-12-31 16:23+0100\n"
+"PO-Revision-Date: 2009-01-31 15:42+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: LoKalize 0.2\n"
+
+#: admin.php:44
+msgid "Options were saved."
+msgstr "Die Einstellungen wurden gespeichert."
+
+#: admin.php:49
+msgid "0 HTML links were found."
+msgstr "Keine HTML-Links gefunden."
+
+#: admin.php:51
+msgid "1 HTML link was found."
+msgstr "1 HTML-Link gefunden."
+
+#: admin.php:54
+#, php-format
+msgid "%d HTML links were converted in %d post or page."
+msgid_plural "%d HTML links were converted in %d posts and pages."
+msgstr[0] "%d HTML-Links umgewandelt in %d Beitrag oder Seite."
+msgstr[1] "%d HTML-Links umgewandelt in %d Beiträgen und Seiten."
+
+#: admin.php:67
+msgid "Slug was renamed."
+msgstr "Der Name wurde geändert."
+
+#: admin.php:72
+msgid "Table was rebuild."
+msgstr "Die Tabelle wurde wiederhergestellt."
+
+#: admin.php:76
+msgid "Plugin was deinstalled."
+msgstr "Das Plugin wurde deinstalliert."
+
+#: admin.php:87
+msgid "Cross-references Options"
+msgstr "Einstellungen für Querverweise"
+
+#: admin.php:91
+msgid "Post identification by"
+msgstr "Identifizierung der Beiträge durch"
+
+#: admin.php:95
+msgid "ID (number)"
+msgstr "ID (Zahl)"
+
+#: admin.php:95
+msgid "Slug (name)"
+msgstr "Name (URL)"
+
+#: admin.php:104
+msgid ""
+"Define whether you want to set references with [cref slug] (for example "
+"[cref hello-world]) or with [cref ID] (for example [cref 1]). "
+msgstr ""
+"Das bestimmt, ob die Verweise durch [cref Name] (z. B. [cref hallo-welt]) "
+"oder durch [cref ID] (z. B. [cref 1]) gesetzt werden. "
+
+#: admin.php:110
+#, php-format
+msgid ""
+"<em>Note:</em> If you change this now, %s existing reference at post or page "
+"will be automatically updated."
+msgid_plural ""
+"<em>Note:</em> If you change this now, %s existing references at posts and "
+"pages will be automatically updated."
+msgstr[0] ""
+"<em>Bemerkung:</em> Wenn Sie jetzt dieses ändern, wird %s bereits "
+"existierende Verweis zu einem Beitrag oder Seite automatisch angepasst."
+msgstr[1] ""
+"<em>Bemerkung:</em> Wenn Sie jetzt dieses ändern, werden die %s bereits "
+"existierenden Verweise zu Beiträgen und Seiten automatisch angepasst."
+
+#: admin.php:120
+msgid "Related Posts List"
+msgstr "Liste der verwandten Beiträge"
+
+#: admin.php:124
+msgid "Do not show related posts"
+msgstr "Verwandte Beiträge nicht anzeigen"
+
+#: admin.php:124
+msgid "Show related posts"
+msgstr "Verwandte Beiträge anzeigen"
+
+#: admin.php:132
+msgid ""
+"Whether the plugin inserts a related posts list at the end of each post and "
+"page. This does not require any template changes."
+msgstr ""
+"Dieses bestimmt, ob das Plugin eine Liste der verwandten Beiträge am Schluss "
+"jedes Beitrags und jeder Seite setzt. Keine Änderung in Theme-Dateien ist "
+"nötig."
+
+#: admin.php:135
+msgid "XML Export"
+msgstr "XML-Export"
+
+#: admin.php:139 admin.php:239
+msgid "Let references as [cref ...]"
+msgstr "Verweise sollen als [cref ...] bleiben"
+
+#: admin.php:139 admin.php:239
+msgid "Show related posts title"
+msgstr "Überschrift des verwandten Beitrags anzeigen"
+
+#: admin.php:139 admin.php:239
+msgid "Link to related posts"
+msgstr "Link zum verwandten Beitrag setzen"
+
+#: admin.php:147
+msgid "How the references are treated when exporting this blog as an xml file."
+msgstr "Wie die Verweise in einer exportierten XML-Datei darzustellen sind."
+
+#: admin.php:151
+msgid "Display Options"
+msgstr "Darstellung"
+
+#: admin.php:152
+msgid ""
+"These options apply only if the related posts list is shown according to the "
+"option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;"
+"sp; to get a white space at the beginning or end of a string."
+msgstr ""
+"Diese Einstellungen wirken nur, wenn laut der obigen Angabe die Liste der "
+"verwandten Beiträge anzuzeigen ist. HTML ist hier zulässig.<br />Mit &amp;"
+"sp; lässt sich ein Leerzeichen am Anfang oder Ende einer Angabe setzen."
+
+#: admin.php:155
+msgid "Before List"
+msgstr "Vor der Liste"
+
+#: admin.php:158
+msgid "Show this at the beginning of the list. Examples: "
+msgstr "Dieses steht am Anfang der Liste. Beispiele:"
+
+#: admin.php:159 crossreferences.php:251
+msgid "Related posts"
+msgstr "Verwandte Beiträge"
+
+#: admin.php:159
+msgid "See also"
+msgstr "Siehe auch"
+
+#: admin.php:162
+msgid "Between Items"
+msgstr "Zwischen Beiträgen"
+
+#: admin.php:165
+msgid "Show this between items. Examples: "
+msgstr "Dieses soll zwischen Beiträgen in der Liste stehen. Beispiele:"
+
+#: admin.php:169
+msgid "After List"
+msgstr "Nach der Liste"
+
+#: admin.php:172
+msgid "Show this at the end of the list. Examples: "
+msgstr "Dieses wird am Ende der Liste hinzugefügt. Beispiele:"
+
+#: admin.php:176
+msgid "Empty List"
+msgstr "Leere Liste"
+
+#: admin.php:179
+msgid "Show this if there are no related posts. Example: "
+msgstr "Dieses erscheint, wenn es keine verwandten Beiträge gibt. Beispiel:"
+
+#: admin.php:180
+msgid "There are no related posts yet."
+msgstr "Es gibt noch keine verwandten Beiträge."
+
+#: admin.php:186
+msgid "Save Changes"
+msgstr "Einstellungen Speichern"
+
+#: admin.php:189
+msgid "Tools"
+msgstr "Tools"
+
+#: admin.php:192
+msgid "Slug Rename"
+msgstr "Umbenennen"
+
+#: admin.php:196
+msgid "Old slug:"
+msgstr "Alter Name:"
+
+#: admin.php:197
+msgid "New slug:"
+msgstr "Neuer Name:"
+
+#: admin.php:198
+msgid "Rename"
+msgstr "Umbenennen"
+
+#: admin.php:199
+msgid ""
+"Changing page slugs will break your references (this is because of the way "
+"WordPress handles slugs). Here you can rename a slug, all references to "
+"it will be updated."
+msgstr ""
+"Hier lassen "
+"sich Namen (URL) von Beiträgen und Seiten ändern und alle Verweise werden angepasst."
+
+#: admin.php:204
+msgid "Rebuild Table"
+msgstr "Tabelle Wiederherstellen"
+
+#: admin.php:208
+msgid "Rebuild"
+msgstr "Wiederherstellen"
+
+#: admin.php:209
+msgid ""
+"The plugin stores information about your references in a database table. If "
+"the plugin was some time inactive, its information may not be accurate any "
+"more. You can rebuild the table, in order to correct all errors."
+msgstr ""
+"Das Plugin speichert Informationen über die Querverweise in eine "
+"Datenbanktabelle. Wenn das Plugin eine Zeit lang inaktiv war, sind diese "
+"Informationen möglicherweise nicht mehr aktuell. Alle eventuellen Fehler "
+"werden dadurch behoben, dass man die Tabelle wiederherstellt."
+
+#: admin.php:214
+msgid "Import HTML Links"
+msgstr "HTML-Links Importieren"
+
+#: admin.php:218
+msgid "Import"
+msgstr "Importieren"
+
+#: admin.php:219
+msgid ""
+"Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which "
+"refer to other posts or pages in this blog changing them to a [cref ...] "
+"reference."
+msgstr ""
+"Alle HTML-Links &lt;a href=...&gt;&lt;/a&gt;, die auf andere Beiträge oder "
+"Seiten dieses Blogs verweisen, werden in [cref ...]-Querverweise umgewandelt."
+
+#: admin.php:224
+msgid "Deinstall Plugin"
+msgstr "Plugin deinstallieren"
+
+#: admin.php:228
+msgid "Deinstall"
+msgstr "Deinstallieren"
+
+#: admin.php:229
+msgid ""
+"If you do not want to use this plugin any more you can deinstall it "
+"completely: The plugin table and options are removed from the database and "
+"then the plugin is deactivated."
+msgstr ""
+"Wenn Sie dieses Plugin nicht mehr benutzen möchten, können Sie es komplett "
+"deinstallieren: Die Tabelle und Einstellungen des Plugins werden von der "
+"Datenbank entfernt und anschließend das Plugin deaktiviert."
+
+#: admin.php:233
+#, php-format
+msgid "What to do with the %s existing reference in a post or page:"
+msgid_plural "What to do with the %s existing references in posts and pages:"
+msgstr[0] ""
+"Was soll geschehen mit dem %s bereits existierenden Verweis zu einem Beitrag "
+"oder einer Seite: "
+msgstr[1] ""
+"Was soll geschehen mit den %s bereits existierenden Verweisen zu Beiträgen "
+"und Seiten: "
+
+#: admin.php:260
+msgid "Please enter both an old and a new post or page slug."
+msgstr "Bitte einen alten und einen neuen Namen eingeben."
+
+#: admin.php:272
+#, php-format
+msgid "Unknown slug %s."
+msgstr "Unbekannter Name %s."
+
+#: crossreferences.php:263
+msgid "Cross-references"
+msgstr "Querverweise"
+

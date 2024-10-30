@@ -1,0 +1,270 @@
+# WordPress Cross-References-Plugin POT file.
+# Copyright (C) 2008 Francesc Hervada-Sala
+# This file is distributed under the same license as the WordPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2008-12-31 16:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: admin.php:44
+msgid "Options were saved."
+msgstr ""
+
+#: admin.php:49
+msgid "0 HTML links were found."
+msgstr ""
+
+#: admin.php:51
+msgid "1 HTML link was found."
+msgstr ""
+
+#: admin.php:54
+#, php-format
+msgid "%d HTML links were converted in %d post or page."
+msgid_plural "%d HTML links were converted in %d posts and pages."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.php:67
+msgid "Slug was renamed."
+msgstr ""
+
+#: admin.php:72
+msgid "Table was rebuild."
+msgstr ""
+
+#: admin.php:76
+msgid "Plugin was deinstalled."
+msgstr ""
+
+#: admin.php:87
+msgid "Cross-references Options"
+msgstr ""
+
+#: admin.php:91
+msgid "Post identification by"
+msgstr ""
+
+#: admin.php:95
+msgid "ID (number)"
+msgstr ""
+
+#: admin.php:95
+msgid "Slug (name)"
+msgstr ""
+
+#: admin.php:104
+msgid ""
+"Define whether you want to set references with [cref slug] (for example "
+"[cref hello-world]) or with [cref ID] (for example [cref 1]). "
+msgstr ""
+
+#: admin.php:110
+#, php-format
+msgid ""
+"<em>Note:</em> If you change this now, %s existing reference at post or page "
+"will be automatically updated."
+msgid_plural ""
+"<em>Note:</em> If you change this now, %s existing references at posts and "
+"pages will be automatically updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.php:120
+msgid "Related Posts List"
+msgstr ""
+
+#: admin.php:124
+msgid "Do not show related posts"
+msgstr ""
+
+#: admin.php:124
+msgid "Show related posts"
+msgstr ""
+
+#: admin.php:132
+msgid ""
+"Whether the plugin inserts a related posts list at the end of each post and "
+"page. This does not require any template changes."
+msgstr ""
+
+#: admin.php:135
+msgid "XML Export"
+msgstr ""
+
+#: admin.php:139 admin.php:239
+msgid "Let references as [cref ...]"
+msgstr ""
+
+#: admin.php:139 admin.php:239
+msgid "Show related posts title"
+msgstr ""
+
+#: admin.php:139 admin.php:239
+msgid "Link to related posts"
+msgstr ""
+
+#: admin.php:147
+msgid "How the references are treated when exporting this blog as an xml file."
+msgstr ""
+
+#: admin.php:151
+msgid "Display Options"
+msgstr ""
+
+#: admin.php:152
+msgid ""
+"These options apply only if the related posts list is shown according to the "
+"option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;"
+"sp; to get a white space at the beginning or end of a string."
+msgstr ""
+
+#: admin.php:155
+msgid "Before List"
+msgstr ""
+
+#: admin.php:158
+msgid "Show this at the beginning of the list. Examples: "
+msgstr ""
+
+#: admin.php:159 crossreferences.php:251
+msgid "Related posts"
+msgstr ""
+
+#: admin.php:159
+msgid "See also"
+msgstr ""
+
+#: admin.php:162
+msgid "Between Items"
+msgstr ""
+
+#: admin.php:165
+msgid "Show this between items. Examples: "
+msgstr ""
+
+#: admin.php:169
+msgid "After List"
+msgstr ""
+
+#: admin.php:172
+msgid "Show this at the end of the list. Examples: "
+msgstr ""
+
+#: admin.php:176
+msgid "Empty List"
+msgstr ""
+
+#: admin.php:179
+msgid "Show this if there are no related posts. Example: "
+msgstr ""
+
+#: admin.php:180
+msgid "There are no related posts yet."
+msgstr ""
+
+#: admin.php:186
+msgid "Save Changes"
+msgstr ""
+
+#: admin.php:189
+msgid "Tools"
+msgstr ""
+
+#: admin.php:192
+msgid "Slug Rename"
+msgstr ""
+
+#: admin.php:196
+msgid "Old slug:"
+msgstr ""
+
+#: admin.php:197
+msgid "New slug:"
+msgstr ""
+
+#: admin.php:198
+msgid "Rename"
+msgstr ""
+
+#: admin.php:199
+msgid ""
+"Changing page slugs will break your references (this is because of the way "
+"WordPress handles slugs). Here you can rename a slug, all references to "
+"it will be updated."
+msgstr ""
+
+#: admin.php:204
+msgid "Rebuild Table"
+msgstr ""
+
+#: admin.php:208
+msgid "Rebuild"
+msgstr ""
+
+#: admin.php:209
+msgid ""
+"The plugin stores information about your references in a database table. If "
+"the plugin was some time inactive, its information may not be accurate any "
+"more. You can rebuild the table, in order to correct all errors."
+msgstr ""
+
+#: admin.php:214
+msgid "Import HTML Links"
+msgstr ""
+
+#: admin.php:218
+msgid "Import"
+msgstr ""
+
+#: admin.php:219
+msgid ""
+"Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which "
+"refer to other posts or pages in this blog changing them to a [cref ...] "
+"reference."
+msgstr ""
+
+#: admin.php:224
+msgid "Deinstall Plugin"
+msgstr ""
+
+#: admin.php:228
+msgid "Deinstall"
+msgstr ""
+
+#: admin.php:229
+msgid ""
+"If you do not want to use this plugin any more you can deinstall it "
+"completely: The plugin table and options are removed from the database and "
+"then the plugin is deactivated."
+msgstr ""
+
+#: admin.php:233
+#, php-format
+msgid "What to do with the %s existing reference in a post or page:"
+msgid_plural "What to do with the %s existing references in posts and pages:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin.php:260
+msgid "Please enter both an old and a new post or page slug."
+msgstr ""
+
+#: admin.php:272
+#, php-format
+msgid "Unknown slug %s."
+msgstr ""
+
+#: crossreferences.php:263
+msgid "Cross-references"
+msgstr ""

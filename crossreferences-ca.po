@@ -1,0 +1,298 @@
+# Cross-references WordPress Plugin POT file.
+# Copyright (C) 2008 Francesc Hervada-Sala
+#
+# Francesc Hervada-Sala <francesc@hervada.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: crossreferences-ca\n"
+"POT-Creation-Date: 2008-12-31 16:23+0100\n"
+"PO-Revision-Date: 2009-01-31 15:40+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: LoKalize 0.2\n"
+
+#: admin.php:44
+msgid "Options were saved."
+msgstr "Les opcions han sigut desades."
+
+#: admin.php:49
+msgid "0 HTML links were found."
+msgstr "No s'han trobat enllaços HTML."
+
+#: admin.php:51
+msgid "1 HTML link was found."
+msgstr "S'ha convertit 1 enllaç HTML."
+
+#: admin.php:54
+#, php-format
+msgid "%d HTML links were converted in %d post or page."
+msgid_plural "%d HTML links were converted in %d posts and pages."
+msgstr[0] "S'han convertit %d enllaços HTML en %d entrada o pàgina."
+msgstr[1] "S'han convertit %d enllaços HTML en %d entrades o pàgines."
+
+#: admin.php:67
+msgid "Slug was renamed."
+msgstr "El nom ha sigut canviat."
+
+#: admin.php:72
+msgid "Table was rebuild."
+msgstr "La taula ha sigut reconstruïda."
+
+#: admin.php:76
+msgid "Plugin was deinstalled."
+msgstr "L'extensió ha sigut desinstal·lada."
+
+#: admin.php:87
+msgid "Cross-references Options"
+msgstr "Opcions de referències croades"
+
+#: admin.php:91
+msgid "Post identification by"
+msgstr "Identificació d'entrades"
+
+#: admin.php:95
+msgid "ID (number)"
+msgstr "ID (nombre)"
+
+#: admin.php:95
+msgid "Slug (name)"
+msgstr "Nom (URL)"
+
+#: admin.php:104
+msgid ""
+"Define whether you want to set references with [cref slug] (for example "
+"[cref hello-world]) or with [cref ID] (for example [cref 1]). "
+msgstr ""
+"Definiu si voleu posar referències amb [cref nom] (per exemple [cref hola-"
+"mon]) o amb [cref ID] (per exemple [cref 1]). "
+
+#: admin.php:110
+#, php-format
+msgid ""
+"<em>Note:</em> If you change this now, %s existing reference at post or page "
+"will be automatically updated."
+msgid_plural ""
+"<em>Note:</em> If you change this now, %s existing references at posts and "
+"pages will be automatically updated."
+msgstr[0] ""
+"<em>Nota:</em> Si canvieu això ara, %s referència existent a una entrada o "
+"pàgina serà automàticament canviada."
+msgstr[1] ""
+"<em>Nota:</em> Si canvieu això ara, %s referències existents en entrades i "
+"pàgines seran automàticament canviades."
+
+#: admin.php:120
+msgid "Related Posts List"
+msgstr "Entrades relacionades"
+
+#: admin.php:124
+msgid "Do not show related posts"
+msgstr "No mostrar les entrades relacionades"
+
+#: admin.php:124
+msgid "Show related posts"
+msgstr "Mostrar les entrades relacionades"
+
+#: admin.php:132
+msgid ""
+"Whether the plugin inserts a related posts list at the end of each post and "
+"page. This does not require any template changes."
+msgstr ""
+"Determina si l'extensió ha d'inserir una llista d'entrades relacionades al "
+"final de cada entrada i pàgina. Això no requereix cap canvi en les "
+"plantilles."
+
+#: admin.php:135
+msgid "XML Export"
+msgstr "Exportació a XML"
+
+#: admin.php:139 admin.php:239
+msgid "Let references as [cref ...]"
+msgstr "Deixar les referències com a [cref ...]"
+
+#: admin.php:139 admin.php:239
+msgid "Show related posts title"
+msgstr "Mostrar els títols de les entrades relacionades"
+
+#: admin.php:139 admin.php:239
+msgid "Link to related posts"
+msgstr "Enllaçar a les entrades relacionades"
+
+#: admin.php:147
+msgid "How the references are treated when exporting this blog as an xml file."
+msgstr ""
+"Com s'han de tractar les referències en exportar aquest blog en un fitxer "
+"XML."
+
+#: admin.php:151
+msgid "Display Options"
+msgstr "Opcions de presentació"
+
+#: admin.php:152
+msgid ""
+"These options apply only if the related posts list is shown according to the "
+"option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;"
+"sp; to get a white space at the beginning or end of a string."
+msgstr ""
+"Aquestes opcions només s'apliquen si es mostra una llista d'entrades "
+"relacionades (vegeu l'opció \"Entrades relacionades\" més amunt). Podeu "
+"introduir HTML aquí.<br />Useu &amp;sp; per a indicar un espai en blanc al "
+"principi o final d'un text."
+
+#: admin.php:155
+msgid "Before List"
+msgstr "Abans de la llista"
+
+#: admin.php:158
+msgid "Show this at the beginning of the list. Examples: "
+msgstr "Mostrar això al principi de la llista. Exemples: "
+
+#: admin.php:159 crossreferences.php:251
+msgid "Related posts"
+msgstr "Entrades relacionades"
+
+#: admin.php:159
+msgid "See also"
+msgstr "Vegeu també"
+
+#: admin.php:162
+msgid "Between Items"
+msgstr "Entre elements"
+
+#: admin.php:165
+msgid "Show this between items. Examples: "
+msgstr "Mostrar això entre dos elements. Exemples: "
+
+#: admin.php:169
+msgid "After List"
+msgstr "Després de la llista"
+
+#: admin.php:172
+msgid "Show this at the end of the list. Examples: "
+msgstr "Mostrar això al final de la llista. Exemples: "
+
+#: admin.php:176
+msgid "Empty List"
+msgstr "Llista buida"
+
+#: admin.php:179
+msgid "Show this if there are no related posts. Example: "
+msgstr "Mostrar això si no hi ha cap entrada relacionada. Exemple: "
+
+#: admin.php:180
+msgid "There are no related posts yet."
+msgstr "Encara no hi ha cap entrada relacionada."
+
+#: admin.php:186
+msgid "Save Changes"
+msgstr "Desar els canvis"
+
+#: admin.php:189
+msgid "Tools"
+msgstr "Utilitats"
+
+#: admin.php:192
+msgid "Slug Rename"
+msgstr "Reanomenar"
+
+#: admin.php:196
+msgid "Old slug:"
+msgstr "Nom antic:"
+
+#: admin.php:197
+msgid "New slug:"
+msgstr "Nom nou:"
+
+#: admin.php:198
+msgid "Rename"
+msgstr "Reanomenar"
+
+#: admin.php:199
+msgid ""
+"Changing page slugs will break your references (this is because of the way "
+"WordPress handles slugs). Here you can rename a slug, all references to "
+"it will be updated."
+msgstr ""
+"Canviar el nom de URL fa perdre la "
+"referència (això es deu a com WordPress tracta els noms de URL). Aquí es "
+"pot canviar el nom i les referències seran actualitzades automàticament. "
+
+#: admin.php:204
+msgid "Rebuild Table"
+msgstr "Reconstruir la taula"
+
+#: admin.php:208
+msgid "Rebuild"
+msgstr "Reconstruir"
+
+#: admin.php:209
+msgid ""
+"The plugin stores information about your references in a database table. If "
+"the plugin was some time inactive, its information may not be accurate any "
+"more. You can rebuild the table, in order to correct all errors."
+msgstr ""
+"L'extensió desa informació sobre les vostres referències en una taula a la "
+"base de dades. Si l'extensió ha estat durant un temps inactiva, potser la "
+"seva informació ja no sigui correcta. Podeu reconstruir la taula per tal de "
+"corregir tots els errors."
+
+#: admin.php:214
+msgid "Import HTML Links"
+msgstr "Importar enllaços HTML"
+
+#: admin.php:218
+msgid "Import"
+msgstr "Importar"
+
+#: admin.php:219
+msgid ""
+"Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which "
+"refer to other posts or pages in this blog changing them to a [cref ...] "
+"reference."
+msgstr ""
+"Importa tots els enllaços html &lt;a href=...&gt;&lt;/a&gt; que es "
+"refereixen a entrades i pàgines en aquest blog convertint-los en referències "
+"croades [cref...]."
+
+#: admin.php:224
+msgid "Deinstall Plugin"
+msgstr "Desinstal·lar l'extensió"
+
+#: admin.php:228
+msgid "Deinstall"
+msgstr "Desinstal·lar"
+
+#: admin.php:229
+msgid ""
+"If you do not want to use this plugin any more you can deinstall it "
+"completely: The plugin table and options are removed from the database and "
+"then the plugin is deactivated."
+msgstr ""
+"Si no voleu usar més aquesta extensió podeu desinstal·lar-la completament: "
+"La taula i les opcions s'esborren de la base de dades i després l'extensió "
+"és desactivada."
+
+#: admin.php:233
+#, php-format
+msgid "What to do with the %s existing reference in a post or page:"
+msgid_plural "What to do with the %s existing references in posts and pages:"
+msgstr[0] ""
+"Què voleu que es faci amb %s referència existent en una entrada o pàgina:"
+msgstr[1] ""
+"Què voleu que es faci amb %s referències existents en les entrades i pàgines:"
+
+#: admin.php:260
+msgid "Please enter both an old and a new post or page slug."
+msgstr "Sisplau introduïu un nom antic i un nom nou."
+
+#: admin.php:272
+#, php-format
+msgid "Unknown slug %s."
+msgstr "Nom desconegut %s."
+
+#: crossreferences.php:263
+msgid "Cross-references"
+msgstr "Referències croades"
+

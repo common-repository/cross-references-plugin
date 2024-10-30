@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-25 17:02+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../../advanced-spoiler\n"
+
+#: admin.php:44
+msgid "Options were saved."
+msgstr "Были сохранены параметры."
+
+#: admin.php:49
+msgid "0 HTML links were found."
+msgstr "Было найдено 0 HTML ссылок."
+
+#: admin.php:51
+msgid "1 HTML link was found."
+msgstr "Была найдена 1 HTML ссылка."
+
+#: admin.php:67
+msgid "Slug was renamed."
+msgstr "Слоган был переименован."
+
+#: admin.php:72
+msgid "Table was rebuild."
+msgstr "Таблица пересоздана."
+
+#: admin.php:76
+msgid "Plugin was deinstalled."
+msgstr "Плагин деинсталлирован."
+
+#: admin.php:87
+msgid "Cross-references Options"
+msgstr "Cross-references настройки"
+
+#: admin.php:91
+msgid "Post identification by"
+msgstr "Идентификация поста по"
+
+#: admin.php:95
+msgid "ID (number)"
+msgstr "ID (номер)"
+
+#: admin.php:95
+msgid "Slug (name)"
+msgstr "Слоган (имя)"
+
+#: admin.php:120
+msgid "Related Posts List"
+msgstr "Список соответствующих постов"
+
+#: admin.php:124
+msgid "Do not show related posts"
+msgstr "Не показывать связанные посты"
+
+#: admin.php:124
+msgid "Show related posts"
+msgstr "Показывать связанные посты"
+
+#: admin.php:132
+msgid "Whether the plugin inserts a related posts list at the end of each post and page. This does not require any template changes."
+msgstr "Плагин вставляет связанные посты в конце каждого сообщения и страницы. Это не требует каких-либо изменений в шаблоне."
+
+#: admin.php:135
+msgid "XML Export"
+msgstr "XML экспорт"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Let references as [cref ...]"
+msgstr "Давайте ссылки, как [CREF ...]"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Show related posts title"
+msgstr "Показать названия связанных постов"
+
+#: admin.php:139
+#: admin.php:239
+msgid "Link to related posts"
+msgstr "Ссылка на связанные посты"
+
+#: admin.php:147
+msgid "How the references are treated when exporting this blog as an xml file."
+msgstr "Как список лечатся при экспорте этого блога, как XML-файл."
+
+#: admin.php:151
+msgid "Display Options"
+msgstr "Отобразить настройки"
+
+#: admin.php:152
+msgid "These options apply only if the related posts list is shown according to the option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;sp; to get a white space at the beginning or end of a string."
+msgstr "These options apply only if the related posts list is shown according to the option \"Related Posts List\" above. You can enter HTML here.<br />Use &amp;sp; to get a white space at the beginning or end of a string."
+
+#: admin.php:155
+msgid "Before List"
+msgstr "До списка"
+
+#: admin.php:158
+msgid "Show this at the beginning of the list. Examples: "
+msgstr "Показать это в начале списка. Примеры:"
+
+#: admin.php:159
+#: crossreferences.php:251
+msgid "Related posts"
+msgstr "Связанные посты"
+
+#: admin.php:159
+msgid "See also"
+msgstr "Показать также"
+
+#: admin.php:162
+msgid "Between Items"
+msgstr "Между пунктами"
+
+#: admin.php:165
+msgid "Show this between items. Examples: "
+msgstr "Показать эту между пунктами. Примеры:"
+
+#: admin.php:169
+msgid "After List"
+msgstr "После списка"
+
+#: admin.php:172
+msgid "Show this at the end of the list. Examples: "
+msgstr "Показать это в конце списка. Примеры:"
+
+#: admin.php:176
+msgid "Empty List"
+msgstr "Пустой список"
+
+#: admin.php:179
+msgid "Show this if there are no related posts. Example: "
+msgstr "Показать это, если нет соответствующих постов. Пример:"
+
+#: admin.php:180
+msgid "There are no related posts yet."
+msgstr "Нет связанных постов."
+
+#: admin.php:186
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: admin.php:189
+msgid "Tools"
+msgstr "Инструменты"
+
+#: admin.php:192
+msgid "Slug Rename"
+msgstr "Переименовать слоган"
+
+#: admin.php:196
+msgid "Old slug:"
+msgstr "Старый слоган: "
+
+#: admin.php:197
+msgid "New slug:"
+msgstr "Новый слоган:"
+
+#: admin.php:198
+msgid "Rename"
+msgstr "Переименовать"
+
+#: admin.php:199
+msgid "Changing page slugs will break your references (this is because of the way WordPress handles slugs). Here you can rename a slug, all references to it will be updated."
+msgstr "Изменения слогана страницЫ нарушит ваши ссылки (это из-за ручного способа WordPress). Здесь вы можете переименовать слоганы, все ссылки на него будут обновлены."
+
+#: admin.php:204
+msgid "Rebuild Table"
+msgstr "Перестроить таблицу"
+
+#: admin.php:208
+msgid "Rebuild"
+msgstr "Перестроить"
+
+#: admin.php:209
+msgid "The plugin stores information about your references in a database table. If the plugin was some time inactive, its information may not be accurate any more. You can rebuild the table, in order to correct all errors."
+msgstr "Плагин хранит информацию о ваших ссылок в базе данных таблицы. Если плагин некоторое время неактивны, его информация не может быть точным больше. Вы можете восстановить таблицы, с тем чтобы исправить все ошибки."
+
+#: admin.php:214
+msgid "Import HTML Links"
+msgstr "Импорт HTML ссылок"
+
+#: admin.php:218
+msgid "Import"
+msgstr "Импорт"
+
+#: admin.php:219
+msgid "Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which refer to other posts or pages in this blog changing them to a [cref ...] reference."
+msgstr "Import all html links &lt;a href=...&gt;&lt;/a&gt; in posts and pages which refer to other posts or pages in this blog changing them to a [cref ...] reference."
+
+#: admin.php:224
+msgid "Deinstall Plugin"
+msgstr "Деинсталляция плагина"
+
+#: admin.php:228
+msgid "Deinstall"
+msgstr "Деинсталляция"
+
+#: admin.php:229
+msgid "If you do not want to use this plugin any more you can deinstall it completely: The plugin table and options are removed from the database and then the plugin is deactivated."
+msgstr "Если вы не хотите использовать этот плагин больше можно деинсталлировать его полностью: Плагин таблицы и параметры удаляются из базы данных, а затем отключить плагин."
+
+#: admin.php:233
+#: admin.php:260
+#, php-format
+msgid "Please enter both an old and a new post or page slug."
+msgstr "Введите старае и  новые слоганы постов или страниц."
+
+#: admin.php:272
+#, php-format
+msgid "Unknown slug %s."
+msgstr "Неизвестный слоган %s."
+
+#: crossreferences.php:263
+msgid "Cross-references"
+msgstr "Перекрестные ссылки"
+
